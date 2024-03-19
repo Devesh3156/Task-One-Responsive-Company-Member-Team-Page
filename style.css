@@ -1,0 +1,124 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8; /* Update background color */
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10px; /* Increase padding */
+    text-align: center;
+    border-bottom: 3px solid #fff; /* Add border */
+}
+
+header h1 {
+    font-size: 28px; /* Increase font size */
+    margin-bottom: 10px; /* Add spacing */
+}
+
+header p {
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 16px; /* Increase font size */
+}
+
+/* Navigation Styles */
+nav {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Add transition */
+}
+
+a:hover {
+    color: #ddd;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px; /* Increase padding */
+}
+
+h2 {
+    color: #333;
+    font-size: 24px; /* Increase font size */
+    margin-bottom: 20px; /* Add spacing */
+}
+
+.team-category {
+    display: flex;
+    justify-content: center; /* Center align */
+    flex-wrap: wrap; /* Allow wrapping */
+}
+
+.team-member {
+    width: 250px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.team-member img {
+    width: 50%;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px; /* Increase spacing */
+    border: 3px solid #fff; /* Add border */
+    transition: transform 0.3s ease; /* Add transition */
+}
+
+.team-member img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.member-info {
+    padding: 15px; /* Increase padding */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0; /* Increase padding */
+    text-align: center;
+}
+.our-expertise {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.why-choose-us {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* Add more styles based on your design reference */
